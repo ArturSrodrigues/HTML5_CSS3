@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+        body{
+            font-family: 'Courier New';
+            /*medidas absolutas
+            cm, mm, in, px, pt, pc
+            
+            medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* weight=peso , widht= largura, height=altura */
+
+             /* lighter, normal, bold, bolder */
+        }
+        h1 { 
+            /*shorthand font
+            - font-style => font-wight => font-size => font-family
+            
+            font-family; 'work sans', sans-serif;
+            font-wight; bolder
+            font-size; 3em
+            fonts-style; italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'work sans';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime a dignissimos necessitatibus illum ipsam quos reprehenderit accusantium, numquam unde porro est aut dolor iste voluptatem omnis voluptas rerum harum placeat?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dolores enim, expedita iure repellat natus quidem eligendi ea recusandae corrupti autem at odio excepturi similique cum? Quas tempora officiis tenetur.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nulla dolores ab dolore officiis iure, illo velit. In ullam deleniti vitae dicta consectetur vel laborum suscipit earum officia! Autem, exercitationem.</p>
+</body>
+</html>
